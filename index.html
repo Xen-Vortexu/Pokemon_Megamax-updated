@@ -1,26 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>
-        Pokemon Megamax - Home
-    </title>
+    <meta charset="UTF-8">
+    <title>Pokemon Megamax - Home</title>
     <link rel="icon" href="icon/884336880550826004.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
     <meta property="og:title" content="Pokemon Megamax">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://the-cool-treecko.github.io/Pokemon_Megamax/">
@@ -36,157 +26,313 @@
 </head>
 
 <body>
-    <section class="header">
-        <ul class="menu col-lg-4 col-md-7 col-sm-8 col-10">
-            <a href="index.html">
-                <li style="background-color: rgb(50,50,50);" class="links">Home</li>
-            </a>
+    <!-- Animated Background Particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
 
-            <a href="download.html">
-                <li class="links">Downloads</li>
-            </a>
-
-            <a href="gallery.html">
-                <li class="links">Gallery</li>
-            </a>
-
-            <a href="credits.html">
-                <li class="links">Info</li>
-            </a>
-
-        </ul>
-        <img class="header-img" src="common/panorama.png" width=100%>
-        <h1 class="page d-lg-inline-block d-sm-none d-none">Home</h1>
-        <div class="underline d-lg-inline-block d-sm-none d-none"></div>
-        <div class="announcements" style="font-size: 20px; font-family: Agency FB;">
-            <strong class="col-lg-2 col-md-2 col-sm-2 col-2">Announcements:</strong>
-            <marquee onmouseover="this.stop()" onmouseout="this.start()" style="float:right;"
-                class="col-lg-10 col-md-9 col-sm-9 col-8" scrollamount="8">Pokemon Megamax is now
-                partnered with Pokemon Brick Bronze Reborn! Check the partners section in the info page for more
-                details!
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWe also
-                have a discord server! Get the invite in the
-                discord section of the info page!
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDownload
-                links for Beta 1.0, 1.1 and 1.2 have been taken down.</marquee>
+    <!-- Navigation Menu -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo-glow"></div>
+                <span class="logo-text">MEGAMAX</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Home</span>
+                </a></li>
+                <li><a href="download.html" class="nav-link">
+                    <span class="nav-icon">⬇️</span>
+                    <span class="nav-text">Downloads</span>
+                </a></li>
+                <li><a href="gallery.html" class="nav-link">
+                    <span class="nav-icon">🖼️</span>
+                    <span class="nav-text">Gallery</span>
+                </a></li>
+                <li><a href="credits.html" class="nav-link">
+                    <span class="nav-icon">ℹ️</span>
+                    <span class="nav-text">Info</span>
+                </a></li>
+            </ul>
         </div>
-        <div class="intro"><label>Welcome! This is the home page of Pokemon Megamax!</label></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <img class="hero-bg" src="common/panorama.png" alt="Pokemon Megamax Banner">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="glitch" data-text="POKEMON">POKEMON</span>
+                <span class="hero-subtitle">MEGAMAX</span>
+            </h1>
+            <div class="hero-tagline">Experience a Darker Journey</div>
+            <a href="download.html" class="cta-button">
+                <span class="cta-text">Download Now</span>
+                <span class="cta-glow"></span>
+            </a>
+        </div>
     </section>
-    <section class="main-start">
-        <h1 style="color:white;font-family: 'Quantico';">Features</h1>
-        <br>
 
-        <div class="info-container col-lg-3 col-md-5 col-sm-10 col-10">
-            <h3 class="info-header">New Region</h3>
-            <img class="info-img img-responsive" src="features/new region.png">
-            <br><br>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">In the new region of
-                    Aurres a
-                    darker-than-usual plot takes place. Will you survive, or perish?</p>
-            </strong>
+    <!-- Announcements Bar -->
+    <div class="announcement-bar glass-card">
+        <div class="announcement-icon">📢</div>
+        <div class="announcement-content">
+            <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="5">
+                🎮 Pokemon Megamax is now partnered with Pokemon Brick Bronze Reborn! 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                💬 Join our Discord server - Check the Info page for details! 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                ⚠️ Download links for Beta 1.0, 1.1 and 1.2 have been taken down
+            </marquee>
         </div>
-        <div class="info-container col-lg-3 col-md-5 col-sm-10 col-10">
-            <h3 class="info-header">Story Based</h3>
-            <img class="info-img img-responsive" src="features/story based.png">
-            <br><br>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">The game is more story
-                    based
-                    than battle based. </p>
-            </strong>
+    </div>
+
+    <!-- Welcome Message -->
+    <div class="welcome-section">
+        <div class="glass-card welcome-card">
+            <div class="electric-border"></div>
+            <h2 class="section-title">Welcome Trainer!</h2>
+            <p class="welcome-text">Embark on an epic adventure in the Aurres region with Pokemon Megamax!</p>
         </div>
-        <div class="info-container col-lg-3 col-md-5 col-sm-10 col-10">
-            <h3 class="info-header">Mutant Pokemon</h3>
-            <img class="info-img img-responsive" src="features/mutant trevenant.png">
-            <br><br>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">Genetically engineered
-                    stronger-than-usual pokemon made by Team Saber for world domination. You can't get past these
-                    easily.
+    </div>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="section-header">
+            <h2 class="section-title-main">
+                <span class="title-line"></span>
+                GAME FEATURES
+                <span class="title-line"></span>
+            </h2>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card glass-card" data-tilt>
+                <div class="feature-icon-bg">⚡</div>
+                <div class="feature-image-container">
+                    <img class="feature-img" src="features/new region.png" alt="New Region">
+                    <div class="image-overlay"></div>
+                </div>
+                <h3 class="feature-title">New Region</h3>
+                <p class="feature-description">
+                    In the new region of Aurres a darker-than-usual plot takes place. Will you survive, or perish?
                 </p>
-            </strong>
-        </div>
-        <div class="info-container col-lg-10 col-md-5 col-sm-10 col-10">
-            <h3 class="info-header">Harder Difficulty</h3>
-            <img class="info-img img-responsive" src="features/custom ui.png">
-            <br><br>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">Difficulty is increased to
-                    make the game more challenging. Its easier to get the "Don't do a Nuzlocke" achievement now.
+                <div class="feature-glow"></div>
+            </div>
+
+            <div class="feature-card glass-card" data-tilt>
+                <div class="feature-icon-bg">📖</div>
+                <div class="feature-image-container">
+                    <img class="feature-img" src="features/story based.png" alt="Story Based">
+                    <div class="image-overlay"></div>
+                </div>
+                <h3 class="feature-title">Story Driven</h3>
+                <p class="feature-description">
+                    The game is more story based than battle based, with deep narrative elements throughout.
                 </p>
-            </strong>
-        </div>
-        <br>
-        <br>
-        <div>
-            <div class="changelog-text col-sm-11 col-12 text-lg-left text-md-center text-sm-center">
-                <br>
-                <h4 style="color:white;font-family: 'Quantico';">&nbsp&nbspAnd many more features, such as:</h4>
-                <br>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Achievements System.
-                    More achievements will be added every update.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Pokemon up to gen 8.
-                    Don't forget the fakemons though.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Music from different
-                    artists like <a href="https://www.youtube.com/c/GlitchxCity">GlitchxCity</a>, <a
-                        href="https://www.youtube.com/c/ZameJack">Zame</a>, <a
-                        href="https://www.youtube.com/channel/UCW3UeF_dWeNxbfMScx-v37g">VanilluxePavilion</a>, <a
-                        href="https://www.youtube.com/c/JoblessMusic/">Jobless Music</a> and <a
-                        href="https://www.youtube.com/c/Luigigigas">Luigigigas</a>. 
-                        <br>&nbsp;&nbsp;&nbsp;Some custom music present too.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Gen 5 styled GUI.
-                    Includes some custom GUI too.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Game overs. If you
-                    lose battles during certain parts of the game, you get a game over.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Level caps. Level caps
-                    are increased after every gym.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Gen 4 styled Overworld
-                    graphics and Gen 5 styled Maps.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Sidequests. More
-                    sidequests will be added every chapter.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> Unreal time system.
-                    Every one second a minute passes in the game.</p>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">&nbsp> And much more...</p>
+                <div class="feature-glow"></div>
+            </div>
+
+            <div class="feature-card glass-card" data-tilt>
+                <div class="feature-icon-bg">🧬</div>
+                <div class="feature-image-container">
+                    <img class="feature-img" src="features/mutant trevenant.png" alt="Mutant Pokemon">
+                    <div class="image-overlay"></div>
+                </div>
+                <h3 class="feature-title">Mutant Pokemon</h3>
+                <p class="feature-description">
+                    Genetically engineered stronger-than-usual pokemon made by Team Saber for world domination.
+                </p>
+                <div class="feature-glow"></div>
+            </div>
+
+            <div class="feature-card glass-card feature-wide" data-tilt>
+                <div class="feature-icon-bg">💀</div>
+                <div class="feature-image-container">
+                    <img class="feature-img" src="features/custom ui.png" alt="Harder Difficulty">
+                    <div class="image-overlay"></div>
+                </div>
+                <h3 class="feature-title">Extreme Challenge</h3>
+                <p class="feature-description">
+                    Difficulty is increased to make the game more challenging. Get ready for the ultimate Pokemon experience!
+                </p>
+                <div class="feature-glow"></div>
             </div>
         </div>
     </section>
-    <br>
-    <section class="main-middle">
-        <h1 style="color:white;font-family: 'Quantico';">Story elements</h1>
-        <br>
-        <div class="info-div mb-sm-5">
-            <img class="info-img-left float-lg-left mb-sm-2 float-sm-none" src="story/Team saber.png">
-            <h3 class="info-header">Team Saber</h3>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">Team saber is an anarchorous
-                    group of criminals who use
-                    pokemon for evil.</p>
-            </strong>
-        </div>
-        <br>
-        <div class="info-div mb-sm-5 mt-sm-5">
-            <img class="info-img-right col-lg-4 col-md-7 col-sm-10 col-10 float-lg-right float-sm-none mb-sm-2" src="story/800_f4.png">
-            <h3 class="info-header">Necrozma</h3>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">A legendary that saved the
-                    protagonist from drowning
-                    when the ship crashed.
-                    He seems quite nice though other Legendary Pokemon consider Necrozma rather eccentric.</p>
-            </strong>
-        </div>
-        <br>
-        <div class="info-div mb-sm-5 mt-sm-5">
-            <img class="info-img-left float-lg-left float-sm-none col-lg-4 col-md-7 col-sm-10 col-10 mb-sm-2" src="story/dark.png">
-            <h3 class="info-header">Dark Storyline</h3>
-            <strong>
-                <p style="font-size: 16px;font-family:Consolas, 'Courier New', monospace;">Some parts of this game are
-                    not meant for kids, they
-                    contain violence, bloodshed, deaths on screen. If you are disturbed by this then don't play the game
-                    <strike>(or just cover your eyes during those parts lol)</strike>.</p>
-            </strong>
+
+    <!-- Additional Features -->
+    <section class="extra-features glass-card">
+        <h3 class="extra-title">And Much More...</h3>
+        <div class="features-list">
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Achievements System - More achievements added every update</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Pokemon up to Gen 8 plus exclusive Fakemons</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Custom music from artists like <a href="https://www.youtube.com/c/GlitchxCity" target="_blank">GlitchxCity</a>, 
+                <a href="https://www.youtube.com/c/ZameJack" target="_blank">Zame</a>, and more</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Gen 5 styled GUI with custom elements</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Game overs during critical story battles</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Level caps that increase after each gym</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Gen 4 Overworld graphics with Gen 5 style maps</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Sidequests - New quests added each chapter</span>
+            </div>
+            <div class="feature-item">
+                <span class="feature-bullet">▸</span>
+                <span>Unreal time system - Every second = 1 minute in-game</span>
+            </div>
         </div>
     </section>
+
+    <!-- Story Elements -->
+    <section class="story-section">
+        <div class="section-header">
+            <h2 class="section-title-main">
+                <span class="title-line"></span>
+                STORY ELEMENTS
+                <span class="title-line"></span>
+            </h2>
+        </div>
+
+        <div class="story-grid">
+            <div class="story-card glass-card">
+                <div class="story-image-left">
+                    <img src="story/Team saber.png" alt="Team Saber">
+                    <div class="image-glow"></div>
+                </div>
+                <div class="story-content">
+                    <h3 class="story-title">Team Saber</h3>
+                    <p class="story-description">
+                        Team Saber is an anarchistic group of criminals who use pokemon for evil purposes. 
+                        They stop at nothing to achieve their sinister goals.
+                    </p>
+                </div>
+            </div>
+
+            <div class="story-card glass-card">
+                <div class="story-content">
+                    <h3 class="story-title">Necrozma</h3>
+                    <p class="story-description">
+                        A legendary that saved the protagonist from drowning when the ship crashed. 
+                        He seems quite nice though other Legendary Pokemon consider Necrozma rather eccentric.
+                    </p>
+                </div>
+                <div class="story-image-right">
+                    <img src="story/800_f4.png" alt="Necrozma">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+
+            <div class="story-card glass-card">
+                <div class="story-image-left">
+                    <img src="story/dark.png" alt="Dark Storyline">
+                    <div class="image-glow"></div>
+                </div>
+                <div class="story-content">
+                    <h3 class="story-title">Dark Storyline</h3>
+                    <p class="story-description">
+                        Some parts of this game contain violence, bloodshed, and deaths on screen. 
+                        Viewer discretion is advised. <span style="text-decoration: line-through;">
+                        (or just cover your eyes during those parts lol)</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-card">
+        <div class="footer-content">
+            <p>© 2024 Pokemon Megamax | Fan-made Pokemon Game</p>
+            <div class="footer-links">
+                <a href="https://discord.gg/yourdiscord" class="footer-link">Discord</a>
+                <span class="footer-separator">•</span>
+                <a href="credits.html" class="footer-link">Credits</a>
+                <span class="footer-separator">•</span>
+                <a href="gallery.html" class="footer-link">Gallery</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Parallax effect for hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero-bg');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Add hover effect to feature cards
+        const cards = document.querySelectorAll('[data-tilt]');
+        cards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 10;
+                const rotateY = (centerX - x) / 10;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.05, 1.05, 1.05)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale3d(1, 1, 1)';
+            });
+        });
+    </script>
 </body>
 
 </html>

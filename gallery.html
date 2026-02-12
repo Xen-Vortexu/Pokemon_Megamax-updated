@@ -1,161 +1,255 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>
-        Pokemon Megamax - Gallery
-    </title>
+    <meta charset="UTF-8">
+    <title>Pokemon Megamax - Gallery</title>
     <link rel="icon" href="icon/884336880550826004.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Pokemon Megamax - Gallery">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://the-cool-treecko.github.io/Pokemon_Megamax/">
-    <meta property="og:description" content="Welcome, this is the official site for Pokemon Megamax!">
-    <meta itemprop="name" content="Pokemon Megamax">
-    <meta itemprop="description" content="Welcome, this is the official site for Pokemon Megamax!">
-    <meta itemprop="url" content="https://the-cool-treecko.github.io/Pokemon_Megamax/">
+    <meta property="og:description" content="Gallery of Pokemon Megamax screenshots!">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta itemprop="thumbnailUrl" content="https://the-cool-treecko.github.io/Pokemon_Megamax/screenshots/title.png">
-    <meta itemprop="image" content="https://the-cool-treecko.github.io/Pokemon_Megamax/screenshots/title.png">
-    <meta itemprop="imageUrl" content="https://the-cool-treecko.github.io/Pokemon_Megamax/screenshots/title.png">
-    <meta property="og:image" content="https://the-cool-treecko.github.io/Pokemon_Megamax/screenshots/title.png">
 </head>
 
 <body>
-    <section class="header">
-        <ul class="menu col-lg-4 col-md-7 col-sm-8 col-10">
-            <a href="index.html">
-                <li class="links">Home</li>
-            </a>
-            <a href="download.html">
-                <li class="links">Downloads</li>
-            </a>
-            <a href="gallery.html">
-                <li style="background-color: rgb(50,50,50);" class="links">Gallery</li>
-            </a>
-            <a href="credits.html">
-                <li class="links">Info</li>
-            </a>
-        </ul>
-        <img src="common/panorama.png" width=100%>
-        <h1 class="page d-lg-inline-block d-sm-none d-none">Gallery</h1>
-        <div class="underlineg d-lg-inline-block d-sm-none d-none"></div>
-        <div class="intro"><label>This is the gallery of Pokemon Megamax!</label></div>
+    <!-- Animated Background Particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo-glow"></div>
+                <span class="logo-text">MEGAMAX</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">
+                    <span class="nav-icon">🏠</span>
+                    <span class="nav-text">Home</span>
+                </a></li>
+                <li><a href="download.html" class="nav-link">
+                    <span class="nav-icon">⬇️</span>
+                    <span class="nav-text">Downloads</span>
+                </a></li>
+                <li><a href="gallery.html" class="nav-link active">
+                    <span class="nav-icon">🖼️</span>
+                    <span class="nav-text">Gallery</span>
+                </a></li>
+                <li><a href="credits.html" class="nav-link">
+                    <span class="nav-icon">ℹ️</span>
+                    <span class="nav-text">Info</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" style="height: 50vh;">
+        <div class="hero-overlay"></div>
+        <img class="hero-bg" src="common/panorama.png" alt="Pokemon Megamax Banner">
+        <div class="hero-content">
+            <h1 class="hero-title" style="font-size: 4rem;">
+                <span class="hero-subtitle">GALLERY</span>
+            </h1>
+            <div class="hero-tagline">Explore the World of Megamax</div>
+        </div>
     </section>
-    <section>
-        <h1 style="color:white;font-family: 'Quantico';">Story</h1>
-        <br>
-        <div class="screenshot-panel">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/1.png"><br>
-                <img class="screenshot-side" src="screenshots/2.png">
+
+    <!-- Welcome Message -->
+    <div class="welcome-section">
+        <div class="glass-card welcome-card">
+            <div class="electric-border"></div>
+            <h2 class="section-title">Screenshot Collection</h2>
+            <p class="welcome-text">Browse through our collection of in-game screenshots!</p>
+        </div>
+    </div>
+
+    <!-- Story Screenshots -->
+    <section class="gallery-section">
+        <div class="section-header">
+            <h2 class="section-title-main">
+                <span class="title-line"></span>
+                STORY
+                <span class="title-line"></span>
+            </h2>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-panel glass-card">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/1.png" alt="Screenshot 1">
+                    <img class="screenshot-side" src="screenshots/2.png" alt="Screenshot 2">
+                </div>
+                <img class="screenshot-main" src="screenshots/3.png" alt="Screenshot 3">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/4.png" alt="Screenshot 4">
+                    <img class="screenshot-side" src="screenshots/5.png" alt="Screenshot 5">
+                </div>
             </div>
-            <img class="screenshot-main" src="screenshots/3.png">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/4.png"><br>
-                <img class="screenshot-side" src="screenshots/5.png">
+
+            <div class="gallery-panel glass-card">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/6.png" alt="Screenshot 6">
+                    <img class="screenshot-side" src="screenshots/7.png" alt="Screenshot 7">
+                </div>
+                <img class="screenshot-main" src="screenshots/8.png" alt="Screenshot 8">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/9.png" alt="Screenshot 9">
+                    <img class="screenshot-side" src="screenshots/10.png" alt="Screenshot 10">
+                </div>
+            </div>
+
+            <div class="gallery-panel glass-card">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/11.png" alt="Screenshot 11">
+                    <img class="screenshot-side" src="screenshots/12.png" alt="Screenshot 12">
+                </div>
+                <img class="screenshot-main" src="screenshots/13.png" alt="Screenshot 13">
+                <div class="screenshot-group">
+                    <img class="screenshot-side" src="screenshots/14.png" alt="Screenshot 14">
+                    <img class="screenshot-side" src="screenshots/15.png" alt="Screenshot 15">
+                </div>
+            </div>
+
+            <div class="gallery-panel glass-card">
+                <img class="screenshot-main" src="screenshots/16.png" alt="Screenshot 16">
+                <img class="screenshot-main" src="screenshots/17.png" alt="Screenshot 17">
             </div>
         </div>
-        <br>
-        <br>
-        <div class="screenshot-panel">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/6.png"><br>
-                <img class="screenshot-side" src="screenshots/7.png">
-            </div>
-            <img class="screenshot-main" src="screenshots/8.png">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/9.png"><br>
-                <img class="screenshot-side" src="screenshots/10.png">
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="screenshot-panel">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/11.png"><br>
-                <img class="screenshot-side" src="screenshots/12.png">
-            </div>
-            <img class="screenshot-main" src="screenshots/13.png">
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/14.png"><br>
-                <img class="screenshot-side" src="screenshots/15.png">
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="screenshot-panel">
-            <img class="screenshot-main" src="screenshots/16.png">
-            <img class="screenshot-main" src="screenshots/17.png">
-        </div>
-        <br>
-        <br>
-        <h1 style="color:white;font-family: 'Quantico';">GUI</h1>
-        <br>
-        <div class="screenshot-panel">
-            <img class="screenshot-main" src="screenshots/ui menu.png">
-            <br>
-            <br>
-            <h3 style="font-family: 'Quantico';">Common UI</h3>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/ui starter01.png"><br>
-                <img class="screenshot-side" src="screenshots/ui starter02.png">
-            </div>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/naming01.png"><br>
-                <img class="screenshot-side" src="screenshots/naming02.png">
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="screenshot-panel">
-            <img class="screenshot-main" src="screenshots/battle00.png">
-            <br>
-            <br>
-            <h3 style="font-family: 'Quantico';">Battle and Chapters</h3>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/chapter00.png"><br>
-                <img class="screenshot-side" src="screenshots/chapter01.png">
-            </div>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/battle01.png"><br>
-                <img class="screenshot-side" src="screenshots/battle02.png">
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="screenshot-panel">
-            <img class="screenshot-main" src="screenshots/title.png">
-            <br>
-            <br>
-            <h3 style="font-family: 'Quantico';">Title and Menus</h3>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/load.png"><br>
-                <img class="screenshot-side" src="screenshots/ui bag.png">
-            </div>
-            <div class="screenshot-subpanel">
-                <img class="screenshot-side" src="screenshots/ui pokemon.png"><br>
-                <img class="screenshot-side" src="screenshots/ui card.png">
-            </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
     </section>
+
+    <!-- GUI Screenshots -->
+    <section class="gallery-section">
+        <div class="section-header">
+            <h2 class="section-title-main">
+                <span class="title-line"></span>
+                USER INTERFACE
+                <span class="title-line"></span>
+            </h2>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-panel glass-card">
+                <img class="screenshot-main" src="screenshots/ui menu.png" alt="Main Menu">
+                <h3 class="gallery-subtitle">Common UI</h3>
+                <div class="screenshot-row">
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/ui starter01.png" alt="Starter Selection 1">
+                        <img class="screenshot-side" src="screenshots/ui starter02.png" alt="Starter Selection 2">
+                    </div>
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/naming01.png" alt="Naming 1">
+                        <img class="screenshot-side" src="screenshots/naming02.png" alt="Naming 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-panel glass-card">
+                <img class="screenshot-main" src="screenshots/battle00.png" alt="Battle Screen">
+                <h3 class="gallery-subtitle">Battle and Chapters</h3>
+                <div class="screenshot-row">
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/chapter00.png" alt="Chapter 0">
+                        <img class="screenshot-side" src="screenshots/chapter01.png" alt="Chapter 1">
+                    </div>
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/battle01.png" alt="Battle 1">
+                        <img class="screenshot-side" src="screenshots/battle02.png" alt="Battle 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-panel glass-card">
+                <img class="screenshot-main" src="screenshots/title.png" alt="Title Screen">
+                <h3 class="gallery-subtitle">Title and Menus</h3>
+                <div class="screenshot-row">
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/load.png" alt="Load Screen">
+                        <img class="screenshot-side" src="screenshots/ui bag.png" alt="Bag UI">
+                    </div>
+                    <div class="screenshot-group">
+                        <img class="screenshot-side" src="screenshots/ui pokemon.png" alt="Pokemon UI">
+                        <img class="screenshot-side" src="screenshots/ui card.png" alt="Card UI">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass-card">
+        <div class="footer-content">
+            <p>© 2024 Pokemon Megamax | Fan-made Pokemon Game</p>
+            <div class="footer-links">
+                <a href="https://discord.gg/yourdiscord" class="footer-link">Discord</a>
+                <span class="footer-separator">•</span>
+                <a href="credits.html" class="footer-link">Credits</a>
+                <span class="footer-separator">•</span>
+                <a href="index.html" class="footer-link">Home</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <script>
+        // Lightbox effect for images
+        document.querySelectorAll('.screenshot-side, .screenshot-main').forEach(img => {
+            img.addEventListener('click', function() {
+                const overlay = document.createElement('div');
+                overlay.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.9);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 10000;
+                    cursor: pointer;
+                `;
+                
+                const imgClone = this.cloneNode();
+                imgClone.style.cssText = `
+                    max-width: 90%;
+                    max-height: 90%;
+                    border-radius: 15px;
+                    box-shadow: 0 0 50px rgba(0, 212, 255, 0.5);
+                `;
+                
+                overlay.appendChild(imgClone);
+                document.body.appendChild(overlay);
+                
+                overlay.addEventListener('click', () => {
+                    overlay.remove();
+                });
+            });
+            
+            img.style.cursor = 'pointer';
+        });
+    </script>
 </body>
 
 </html>
